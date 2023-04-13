@@ -1,9 +1,19 @@
-//1. Faça um programa que tem um array de inteiros, calcule e mostre:
-   // 2. a quantidade de números;
-
 import Foundation
 
-let arrayQuantidade = [1, 55, 23, 47, 56, 11]
+let arrayImpares = [1, 20, 55, 14, 56]
 
 
-print(arrayQuantidade.count)
+var qtdimpares = 0
+
+for numero in arrayImpares {
+  if numero % 2 == 1 {
+    
+    qtdimpares += 1
+  }
+
+}
+
+
+
+
+print("A quantidade dos numeros impares  é: \(qtdimpares)")
